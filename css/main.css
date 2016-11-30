@@ -1,35 +1,24 @@
 body {
 background: #AD2A1A; /* fallback for old browsers */
-
 }
 
-#wrapper {
-
-}
-#name {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  font-style: italic;
-  font-size: 72px;
-  color: #FFFFFF;
-  text-align: center;
-  padding-top: 15%;
-  padding-bottom: 1%
-
+#name img {
+    display: table-cell;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 0px !important;
 }
 
 #desc {
-
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  padding-top: 0px !important;
   padding-bottom: 1%;
   width: 50%;
   margin: auto;
   text-align: center;
   color: #FFF
-
-
-
 }
 
 #links {
@@ -40,6 +29,7 @@ background: #AD2A1A; /* fallback for old browsers */
   padding-top: 1%;
   color: #FFF;
 }
+
 footer{
   color: #FFF;
 }
@@ -54,6 +44,7 @@ color: #FFF;
 transition: color 0.25s linear;
 text-decoration: none;
 }
+
 a:hover {
   color: #C0C0C0;
 }
