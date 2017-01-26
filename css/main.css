@@ -49,22 +49,14 @@ a:hover {
   background-image: url('');
 }
 
-#rocket img {
+#satellite img {
 
 	position: absolute;
 	top: 15%;
   width: 15%;
-  transform: rotate(30deg) translate(115%, -25%);
+  transform: translate(100%, -25%);
 
 }
-
-#mars img {
-  position: absolute;
-	top: 10%;
-  width: 10%;
-  transform: translate(700%, 200%);
-}
-
 
 
 a {
