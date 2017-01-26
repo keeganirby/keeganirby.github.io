@@ -49,6 +49,24 @@ a:hover {
   background-image: url('');
 }
 
+#rocket img {
+
+	position: absolute;
+	top: 15%;
+  width: 15%;
+  transform: rotate(30deg) translate(115%, -25%);
+
+}
+
+#mars img {
+  position: absolute;
+	top: 10%;
+  width: 10%;
+  transform: translate(700%, 200%);
+}
+
+
+
 a {
 color: #FFF;
 -o-transition: color 0.25s linear;
